@@ -16,7 +16,6 @@ StudyHub is a dedicated, high-performance knowledge-sharing ecosystem built for 
 7. [API Documentation](#-api-documentation)
 8. [Project Roadmap](#-project-roadmap)
 9. [Troubleshooting & FAQ](#-troubleshooting--faq)
-10. [Contributing](#-contributing)
 
 ---
 
