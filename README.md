@@ -2,8 +2,8 @@
 
 A modern, full-stack web platform for campus communities to seamlessly upload, organize, and interact with academic study materials. Built with live search filtering, secure CRUD operations, and cloud media hosting.
 
-**Live Demo:** [study-hub-nine-drab.vercel.app]  
-**Backend API:** [https://studyhub-tzcr.onrender.com]
+**Live Demo:** [Click Here](https://your-vercel-link.vercel.app)  
+**Backend API:** [Click Here](https://studyhub-tzcr.onrender.com)
 
 ---
 
