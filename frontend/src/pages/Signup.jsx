@@ -12,7 +12,7 @@ const handleSignup = async (e) => {
     e.preventDefault();
     try {
       // Send the data to your Node.js backend
-      const response = await axios.post('http://localhost:5000/api/auth/signup', {
+      const response = await axios.post('https://studyhub-tzcr.onrender.com/api/auth/signup', {
         name,
         email,
         password

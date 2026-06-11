@@ -13,7 +13,7 @@ export default function Login() {
     
     try {
       // 1. Send credentials to the backend
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
+      const response = await axios.post('https://studyhub-tzcr.onrender.com/api/auth/login', {
         email,
         password
       });

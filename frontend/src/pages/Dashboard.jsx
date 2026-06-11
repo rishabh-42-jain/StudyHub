@@ -13,7 +13,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchResources = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/upload/all');
+        const response = await axios.get('https://studyhub-tzcr.onrender.com/api/upload/all');
         setResources(response.data);
       } catch (error) {
         console.error('Error fetching resources:', error);
@@ -30,7 +30,7 @@ export default function Dashboard() {
 
     try {
       // 2. Tell the Node.js backend to delete it from MongoDB
-      await axios.delete(`http://localhost:5000/api/upload/${id}`);
+      await axios.delete(`https://studyhub-tzcr.onrender.com/api/upload/${id}`);
       
       // 3. Remove it from the screen immediately without refreshing the page
       setResources(resources.filter(file => file._id !== id));

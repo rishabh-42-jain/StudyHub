@@ -31,7 +31,7 @@ export default function UploadResource() {
     formData.append('materialType', materialType);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/upload', formData, {
+      const response = await axios.post('https://studyhub-tzcr.onrender.com/api/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       
